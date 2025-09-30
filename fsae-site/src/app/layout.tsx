@@ -25,12 +25,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="h-full">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased h-full flex flex-col`}
       >
-        <Navbar /> 
-        {children}
+        <nav><Navbar /></nav>
+        <main className="flex-1">{children}</main>
+        <footer className="mt-auto">
+          <p className="p-2">Calvin University FSAE 2025</p>
+        </footer>
       </body>
     </html>
   );
