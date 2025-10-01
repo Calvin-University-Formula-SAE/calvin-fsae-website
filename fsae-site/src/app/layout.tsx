@@ -29,10 +29,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased h-full flex flex-col`}
       >
-        <nav><Navbar /></nav>
+        <Navbar />
         <main className="flex-1">{children}</main>
-        <footer className="mt-auto">
-          <p className="p-2">Calvin University FSAE 2025</p>
+        <footer className="mt-auto flex justify-end">
+          <p className="p-2 text-sm">Calvin University FSAE 2025</p>
         </footer>
       </body>
     </html>

@@ -34,7 +34,7 @@ export function Navbar() {
                     className={`transition-all delay-75 flex relative pr-8 m-1 text-md ${
                       isActive 
                         ? 'text-gray-500' 
-                        : 'text-black hover:text-amber-300'
+                        : 'text-black hover:text-calvin-gold'
                     }`}
                   >
                     {name}

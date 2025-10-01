@@ -10,11 +10,18 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Calvin University Colors */
+  --color-calvin-maroon: #8C2131;
+  --color-calvin-gold: #F3CD00;
+  --color-calvin-blue: #71B1C8;
+  --color-calvin-red: #C2002F;
+  --color-calvin-green: #A2D683;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --background: #0a0a0a;
+    --background: #F2F0EF;
     --foreground: #ededed;
   }
 }
